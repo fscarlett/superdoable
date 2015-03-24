@@ -7,7 +7,7 @@
 }*/
 
 body {
-	background-color: #440022;
+	background-color: #4389E6 ; /*ea3f2c; d44;*/
 	/*background: url(images/FH030009.jpg) no-repeat fixed; */
 	/*background-size: 2000px 1900px;*/
 }
@@ -15,7 +15,7 @@ h1 {
 	font-family: verdana, sans-serif;
 	font-size: 50px;
 	font-weight: bold;
-	color: #694369;
+	color: #992359;
 	/*margin-left: 40px;*/
 	font-style: italic;
 	margin-bottom: 60px;
@@ -31,21 +31,21 @@ h1 {
 	padding: 20px;
 	text-align: center;
 	background-color: lightblue;
-	background: linear-gradient(top, #9c54fc, lightblue);
-	background: -webkit-linear-gradient(top, #9c54fc, lightblue);
-	background: -moz-linear-gradient(top, #9c54fc, lightblue);
+	background: linear-gradient(top, #4389E6, lightblue);
+	background: -webkit-linear-gradient(top, #4389E6, lightblue);
+	background: -moz-linear-gradient(top, #4389E6, lightblue);
 	border-radius: 1px;
 }
 h2 {
 	font-family: verdana, sans-serif;
 	font-size: 32px;
 	font-style: italic;
-	color: #694369;
+	color: #793369;
 	/*margin-left: 40px;*/
 	/*margin-bottom: 40px;*/
 	position: absolute;
-	top: 105px;
-	left: 35%;
+	top: 185px;
+	left: 15%;
 	/*margin: 0px auto;*/
 	/*margin-top: 120px;*/
 	width: 14%;
@@ -55,9 +55,9 @@ h2 {
 	padding: 20px;
 	text-align: center;
 	background-color: lightblue;
-	background: linear-gradient(top, #9c54fc, lightblue);
-	background: -webkit-linear-gradient(top, #9c54fc, lightblue);
-	background: -moz-linear-gradient(top, #9c54fc, lightblue);
+	background: linear-gradient(top, #4389E6, lightblue);
+	background: -webkit-linear-gradient(top, #4389E6, lightblue);
+	background: -moz-linear-gradient(top, #4389E6, lightblue);
 	border-radius: 1px;
 }
 p {
@@ -67,12 +67,13 @@ p {
 }
 a {
 	font-family: verdana, sans-serif;
-	font-size: 16px;
-	color: #2f4f4f;
+	font-size: 22px;
+	font-style: italic;
+	color: #4f4f4f;
 }
 a:hover {
 	color: red;
-	font-size: 20px;
+	font-size: 24px;
 }
 li {
 	text-align: left;
@@ -103,25 +104,25 @@ li {
 #links {
 	border-color: lightblue;
 	position: absolute;
-	top: 35%;
-	left: 57%;
-	width: 23%;
-	min-width: 290px;
-	height: 200px;
-	min-height: 10%;
+	top: 45%;
+	left: 25%;
+	width: 25%;
+	min-width: 490px;
+	height: 250px;
+	min-height: 20%;
 	padding: 10px;
 	padding-top: 80px;
 	text-align: center;
 	background-color: lightblue;
-	background: linear-gradient(top, #ad74ff, lightblue);
-	background: -webkit-linear-gradient(top, #ad74ff, lightblue);
-	background: -moz-linear-gradient(top, #ad74ff, lightblue);
+	background: linear-gradient(top, #4389E6, lightblue);
+	background: -webkit-linear-gradient(top, #4389E6, lightblue);
+	background: -moz-linear-gradient(top, #4389E6, lightblue);
 	border-radius: 1px;
 }
 #extra {
 	font-family: verdana, sans-serif;
 	font-size: 20px;
-	color: #2f4f4f;
+	color: #6f4f4f;
 	border-color: lightblue;
 	position: absolute;
 	top: 80%;

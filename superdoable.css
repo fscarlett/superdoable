@@ -9,35 +9,34 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Nunito', verdana, arial, sans-serif;
+
 }
 
 body {
 	/*padding: 0;*/
 	/*margin: 0;*/
-	background-color: #669; /* #4389E6  */
+	background-color: #29c; /* #4389E6  */
+
 }
-
-
-
-
 
 
 h1 {
 	display: inline;
 	padding: 20;
-	font-family: verdana, sans-serif;
+	font-family: 'Exo 2', verdana, arial, sans-serif;
 	font-size: 50px;
 	font-weight: bold;
-	color: #cc2333; /* #992359; */
-	font-style: italic;
+	color: #dd3333; /* #992359; */
+	/*font-style: italic;*/
 	text-align: center;
 }
 
 h2 {
-	font-family: verdana, sans-serif;
+	font-family: 'Nunito', verdana, arial, sans-serif;
 	font-size: 28px;
-	font-style: italic;
-	color: #793369;
+	/*font-style: italic;*/
+	color: #886689;
 	text-align: center;
 	/*background-color: lightblue;*/
 	/*background: linear-gradient(top, #4389E6, lightblue);*/
@@ -46,7 +45,7 @@ h2 {
 	/*border-radius: 1px;*/
 }
 p {
-	font-family: verdana, sans-serif;
+	font-family: 'Nunito', verdana, arial, sans-serif;
 	font-size: 20px;
 	margin-bottom: 30px;
 }
@@ -67,7 +66,7 @@ li {
 header {
 	height: 150px;
 	margin: 0 auto;
-	background-color: #88888a;
+	background-color: #aaa;
 
 }
 
@@ -93,7 +92,7 @@ header {
 /* ========== SLOGAN ================ */
 
 .slogan {
-	background: #ccc;
+	background: #222;
 	height: 70px;
 	width: 100%;
 	display: table;
@@ -136,15 +135,15 @@ header {
 	height: 54px;
 	width: 140px;
 	text-align: center;
-	background: #d22;
+	background: #c43333;
 	/*border: solid 2px white;*/
 }
 
 .link a {
-	font-family: verdana, sans-serif;
+	font-family: 'Nunito', verdana, sans-serif;
 	font-size: 16px;
 	font-style: normal;
-	color: #333;
+	color: #ccc;
 	line-height: 1.2em;
 	text-decoration: none;
 }

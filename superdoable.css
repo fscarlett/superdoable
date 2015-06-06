@@ -6,17 +6,34 @@
 	background-size: cover;
 }*/
 
+/*   color palette maybe   */
+/* -----------------------------------------
+dd3333  h1  june 5   red-orange (flat)
+886689  h2  june 5   lavender-y
+29c		body    june 5    sky blue
+222		slogan bg  june 5  vy dark gray
+
+e23d54   light red : wptest.io 
+006dcc	 blue
+c09853   yellow-beige
+e23d54		pink
+
+---------------------------------------------
+*/
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: 'Nunito', verdana, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 
 }
 
 body {
 	/*padding: 0;*/
 	/*margin: 0;*/
-	background-color: #29c; /* #4389E6  */
+	background-color: #ccc; /* #4389E6  */
 
 }
 
@@ -113,7 +130,7 @@ header {
 }
 
 .row {
-	margin: 20px auto;
+	margin: 40px auto;
 	clear: both;
 
 }
@@ -135,11 +152,19 @@ header {
 	height: 54px;
 	width: 140px;
 	text-align: center;
-	background: #c43333;
+	border-radius: 4px;
+	background: #c43353;
+	display: table;
 	/*border: solid 2px white;*/
 }
 
+.link:hover {
+	opacity: 0.6;
+}
+
 .link a {
+	display: table-cell;
+	vertical-align: middle;
 	font-family: 'Nunito', verdana, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -147,6 +172,23 @@ header {
 	line-height: 1.2em;
 	text-decoration: none;
 }
+
+.color1 {
+	background: #449953;
+}
+
+.color2 {
+	background: #dd3333;
+}
+
+.color3 {
+	background: #c43353;
+}
+
+.color4 {
+	background: #886689;
+}
+
 
 /*  =========== MEDIA QUERY =============  */
 

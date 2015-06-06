@@ -108,31 +108,36 @@ header {
 
 .links-container {
 	margin: 0 auto;
-	width: 70%;
-	border: solid 2px black;
+	width: 60%;
+	/*border: solid 2px black;*/
 
 }
 
 .row {
 	margin: 20px auto;
+	clear: both;
 
 }
 
 .link-col {
-	width: 25%;
+	width: 24%;
 	margin: auto;
 	display: inline-block;
-	border: dashed 1px yellow;
+	/*border: dashed 1px yellow;*/
+}
+
+.link-col:last-child {
+	float: right;
 }
 
 .link {
 	margin: 10px auto;
 	padding: 7px 0;
 	height: 54px;
-	width: 160px;
+	width: 140px;
 	text-align: center;
 	background: #d22;
-	border: solid 2px white;
+	/*border: solid 2px white;*/
 }
 
 .link a {
@@ -144,7 +149,34 @@ header {
 	text-decoration: none;
 }
 
+/*  =========== MEDIA QUERY =============  */
 
+@media (max-width: 999px) {
+
+	h1 { font-size: 38px; }
+
+	h2 { font-size: 22px; }
+
+	header { height: 100px; }
+
+	.links-container {
+		width: 100%;
+	}
+
+	.link-col {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	.link-col:last-child {float: none;}
+
+	.link {
+	padding: 7px 0;
+	height: 35px;
+	width: 280px;
+	}
+}
 
 
 

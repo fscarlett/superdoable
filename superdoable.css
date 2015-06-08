@@ -98,13 +98,12 @@ header {
 
 }
 
-#header-extra {
-	/*display: inline;*/
+/*#header-extra {
 	width: 300px;
 	height: 20px;
 	text-align: center;
 	float: right;
-}
+}*/
 
 /* ========== SLOGAN ================ */
 
@@ -171,7 +170,7 @@ header {
 	font-size: 16px;
 	font-style: normal;
 	color: #ccc;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	text-decoration: none;
 }
 
@@ -238,7 +237,7 @@ footer {
 	.link {
 		margin: 20px auto;
 		padding: 7px 0;
-		height: 50px;
+		height: 45px;
 		width: 260px;
 	}
 
@@ -247,13 +246,19 @@ footer {
 	}
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 370px) {
 
-	header { height: 100px; }
+	header { height: 90px; }
 
-	.slogan { height: 50px;}
+	.slogan { height: 40px;}
 
-	h1 { font-size: 36px; }
+	h1 { font-size: 34px; }
 
-	h2 { font-size: 22px; }
+	h2 { font-size: 20px; }
+
+	.link {
+		margin: 5px auto;
+		padding: 5px;
+		height: 40px;
+	}
 }

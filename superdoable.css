@@ -236,10 +236,10 @@ footer {
 	.link-col:last-child {float: none;}
 
 	.link {
-		margin: 35px auto;
+		margin: 20px auto;
 		padding: 7px 0;
 		height: 50px;
-		width: 280px;
+		width: 260px;
 	}
 
 	footer {
@@ -247,4 +247,13 @@ footer {
 	}
 }
 
+@media screen and (max-width: 380px) {
 
+	header { height: 100px; }
+
+	.slogan { height: 50px;}
+
+	h1 { font-size: 36px; }
+
+	h2 { font-size: 22px; }
+}

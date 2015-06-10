@@ -66,7 +66,7 @@ p {
 	margin-bottom: 30px;
 }
 
-
+a {text-decoration: none;}
 
 a:hover {
 	color: red;
@@ -124,7 +124,7 @@ header {
 .links-container {
 	margin: 0 auto;
 	width: 60%;
-	height: 500px;
+	height: 350px;
 	background: #ccc;
 	/*border: solid 2px black;*/
 
@@ -189,11 +189,36 @@ header {
 .color4 {
 	background: #886689;
 }
+/* ========== MUSIC LINK ================ */
+
+.music-container {
+	margin: 20px auto;
+}
+
+.music-content {
+	margin: 0 auto;
+	width: 66.5%;
+	/*text-align: center;*/
+}
+
+#music-link {
+	font-size: 18px;
+	color: #886689;
+	margin: 10px 10px 30px 10px;
+	padding: 2px 6px;
+	border: solid white 1px;
+	border-radius: 4px;
+
+}
+
+#music-link:hover {
+	background: #fff;
+}
 
 /* ========== FOOTER ================ */
 
 footer {
-	height: 100px;
+	height: 200px;
 	margin: 0 auto;
 	padding: 30px;
 	clear: both;

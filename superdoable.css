@@ -19,6 +19,11 @@ e23d54   light red : wptest.io
 c09853   yellow-beige
 e23d54		pink
 
+button1 green #449953;
+button2 red #dd3333;
+button3  strawberry #c43353;
+button4 lavender #886689;
+
 ---------------------------------------------
 */
 
@@ -144,7 +149,7 @@ header {
 }
 
 .link-col:last-child {
-	float: right;
+	/*float: right;*/
 }
 
 .link {

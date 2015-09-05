@@ -4,6 +4,8 @@ npm.js
 .DS_Store
 *.jpg
 *.png
+*.jpeg
+*.gif
 *.ico
 .gitignore
 glyph*

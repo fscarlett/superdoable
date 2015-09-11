@@ -48,7 +48,8 @@ h1 {
 	font-family: 'Exo 2', verdana, arial, sans-serif;
 	font-size: 50px;
 	font-weight: bold;
-	color: #dd3333; /* #992359; */
+	color: #bd0333;
+	/*color: #dd3333; #992359; */
 	/*font-style: italic;*/
 	text-align: center;
 }
@@ -129,7 +130,7 @@ header {
 .links-container {
 	margin: 0 auto;
 	width: 60%;
-	height: 350px;
+	height: 300px;
 	background: #ccc;
 	/*border: solid 2px black;*/
 
@@ -177,19 +178,45 @@ header {
 }
 
 .color1 {
-	background: #449953;
+	background: #447953;
 }
 
 .color2 {
-	background: #dd3333;
+	background: #bd0333;
 }
 
 .color3 {
-	background: #c43353;
+	background: #c43363;
 }
 
 .color4 {
 	background: #886689;
+}
+
+/* ========== RESUME LINK ================ */
+
+.resume-container {
+	margin: 20px auto;
+}
+
+.resume-content {
+	margin: 0 auto;
+	width: 66.5%;
+	/*text-align: center;*/
+}
+
+#resume-link {
+	font-size: 20px;
+	color: #886689;
+	margin: 10px 10px 30px 10px;
+	padding: 2px 6px;
+	border: solid white 1px;
+	border-radius: 4px;
+
+}
+
+#resume-link:hover {
+	background: #fff;
 }
 /* ========== MUSIC LINK ================ */
 

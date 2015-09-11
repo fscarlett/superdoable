@@ -41,22 +41,40 @@ color: #aad;
 
 .portfolio li {
 	margin-left: -9px;
+	font-size: 16px;
+	padding-bottom: 10px;
 
 }
 
 footer {
 	height: 100px;
-	background: #F64747;
+	background: #F6282a;
 	margin-top: 30px;
 }
 
 #header {
-	background: #F64747;
+	background: #F6282a;
 	color: #e5e5e5;
 }
 
+#stripe {
+	background: #F4B350;
+	height: 20px;
+}
+
 a {
-	color: #3A539B;
+	color: #375098;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #F89406;
+	font-style: italic;
+}
+
+
+h5>a {
+	font-size: 18px;
 }
 
 .meat {
@@ -88,15 +106,18 @@ a {
 
 .experience h3 {
 	margin-top: 0;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .experience h4 {
 	margin-top: 20px;
+	font-size: 17px;
 }
 
 .experience p {
 	padding: 0 50px 10px 30px;
+	font-size: 12px;
+
 }
 
 .references {

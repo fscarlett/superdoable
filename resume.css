@@ -1,7 +1,9 @@
 /* color palette
 
-
-
+#F6282a bright red (3rd try)
+#F4B350 stripe yellowish (2nd try)
+#375098 a
+#F89406 hover orange (stripe color is too light)
 
 */
 
@@ -16,6 +18,21 @@ h1, h2, h3, h4, h5 {
 	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+#header {
+	background: #F6282a;
+	color: #e5e5e5;
+}
+
+#stripe {
+	background: #F4B350;
+	height: 20px;
+}
+
+footer {
+	height: 100px;
+	background: #F6282a;
+	margin-top: 30px;
+}
 
 
 .container {
@@ -46,21 +63,8 @@ color: #aad;
 
 }
 
-footer {
-	height: 100px;
-	background: #F6282a;
-	margin-top: 30px;
-}
 
-#header {
-	background: #F6282a;
-	color: #e5e5e5;
-}
 
-#stripe {
-	background: #F4B350;
-	height: 20px;
-}
 
 a {
 	color: #375098;

@@ -1,7 +1,9 @@
 /* color palette
 
 #F6282a bright red (3rd try)
+#F64747 sunset orange (wins for now)
 #F4B350 stripe yellowish (2nd try)
+#Ed994e new stripe to match sunset orange (3rd try)
 #375098 a
 #F89406 hover orange (stripe color is too light)
 
@@ -19,18 +21,20 @@ h1, h2, h3, h4, h5 {
 }
 
 #header {
-	background: #F6282a;
+	/*background: #F6282a;*/
+	background: #F64747;
 	color: #e5e5e5;
 }
 
 #stripe {
-	background: #F4B350;
+	/*background: #F4B350;*/
+	background: #Ed994e;
 	height: 20px;
 }
 
 footer {
 	height: 100px;
-	background: #F6282a;
+	background: #F64747;
 	margin-top: 30px;
 }
 

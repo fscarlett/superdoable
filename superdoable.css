@@ -38,7 +38,7 @@ button4 lavender #886689;
 body {
 	/*padding: 0;*/
 	/*margin: 0;*/
-	background-color: #ccc; 
+	background-color: #ddd; 
 	/* #4389E6  */
 }
 
@@ -59,7 +59,7 @@ h2 {
 	font-family: 'Nunito', verdana, arial, sans-serif;
 	font-size: 28px;
 	/*font-style: italic;*/
-	color: #886689;
+	color: #56A8E0;
 	text-align: center;
 	/*background-color: lightblue;*/
 	/*background: linear-gradient(top, #4389E6, lightblue);*/
@@ -70,15 +70,15 @@ h2 {
 p {
 	font-family: 'Nunito', verdana, arial, sans-serif;
 	font-size: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 a {text-decoration: none;}
 
-a:hover {
+/*a:hover {
 	color: red;
 	font-size: 22px;
-}
+}*/
 
 li {
 	text-align: left;
@@ -90,7 +90,8 @@ li {
 header {
 	height: 110px;
 	margin: 0 auto;
-	background-color: #aaa;
+	/*background-color: #bbb;*/
+	background-color: #F4B350;
 
 }
 
@@ -132,7 +133,7 @@ header {
 	margin: 0 auto;
 	width: 60%;
 	height: 240px;
-	background: #ccc;
+	background: inherit;
 	/*border: solid 2px black;*/
 
 }
@@ -174,7 +175,7 @@ header {
 	font-family: 'Nunito', verdana, sans-serif;
 	font-size: 16px;
 	font-style: normal;
-	color: #ccc;
+	color: #eee;
 	line-height: 1.3em;
 	text-decoration: none;
 }
@@ -194,9 +195,9 @@ header {
 	background: #c43363;
 }
 
-/*purple*/
+/*blue*/
 .color4 {
-	background: #886689;
+	background: #56A8E0; /* ACTIVE */
 }
 
 /*orange*/
@@ -204,9 +205,15 @@ header {
 	background: #f48330;
 }
 
+/*purple*/
+.color6 {
+	background: #886689;
+}
+
 .stripe {
-	background: #f48330;
-	height: 5px;
+	/*background: #f48330;*/
+	background: #F4B350;
+	height: 15px;
 }
 
 /* ========== RESUME LINK ================ */
@@ -223,7 +230,8 @@ header {
 
 #resume-link {
 	font-size: 20px;
-	color: #886689;
+	/*color: #56A8E0;*/
+	color: #bd0333;
 	margin: 10px 10px 30px 10px;
 	padding: 2px 6px;
 	border: solid white 1px;
@@ -248,7 +256,7 @@ header {
 
 #music-link {
 	font-size: 18px;
-	color: #886689;
+	color: #56A8E0;
 	margin: 10px 10px 30px 10px;
 	padding: 2px 6px;
 	border: solid white 1px;
@@ -267,7 +275,7 @@ footer {
 	margin: 0 auto;
 	padding: 30px;
 	clear: both;
-	background: #888;
+	background: #aaa;
 }
 
 .footer-container {

@@ -36,17 +36,20 @@ button4 lavender #886689;
 }
 
 body {
-	/*padding: 0;*/
-	/*margin: 0;*/
-	background-color: #ddd; 
+	background-color: #eee; 
 	/* #4389E6  */
 }
 
+/*h1, h2, h3, h4, h5, h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	}*/
 
 h1 {
 	display: inline;
 	padding: 20;
-	font-family: 'Exo 2', verdana, arial, sans-serif;
+	/*font-family: 'Exo 2', verdana, arial, sans-serif;*/
+	font-family: 'Cherry Cream Soda', Verdana, Arial, sans-serif;
 	font-size: 50px;
 	font-weight: bold;
 	color: #bd0333;
@@ -71,6 +74,7 @@ p {
 	font-family: 'Nunito', verdana, arial, sans-serif;
 	font-size: 20px;
 	margin-bottom: 10px;
+	margin-left: 13px;
 }
 
 a {text-decoration: none;}
@@ -230,7 +234,7 @@ header {
 	color: #bd0333;
 	margin: 10px 10px 30px 10px;
 	padding: 2px 6px;
-	border: solid white 1px;
+	border: solid #fff 2px;
 	border-radius: 4px;
 
 }
@@ -255,7 +259,7 @@ header {
 	color: #56A8E0;
 	margin: 10px 10px 30px 10px;
 	padding: 2px 6px;
-	border: solid white 1px;
+	border: solid white 2px;
 	border-radius: 4px;
 
 }
@@ -301,6 +305,8 @@ footer {
 
 	h2 { font-size: 24px; }
 
+	p { margin-left: 3px; }
+
 
 	.links-container {
 		width: 100%;
@@ -342,4 +348,5 @@ footer {
 		padding: 5px;
 		height: 40px;
 	}
+
 }

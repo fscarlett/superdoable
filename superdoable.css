@@ -75,10 +75,6 @@ p {
 
 a {text-decoration: none;}
 
-/*a:hover {
-	color: red;
-	font-size: 22px;
-}*/
 
 li {
 	text-align: left;
@@ -91,7 +87,7 @@ header {
 	height: 110px;
 	margin: 0 auto;
 	/*background-color: #bbb;*/
-	background-color: #F4B350;
+	background-color: #FDE3A7;
 
 }
 
@@ -212,7 +208,7 @@ header {
 
 .stripe {
 	/*background: #f48330;*/
-	background: #F4B350;
+	background: #FDE3A7;
 	height: 15px;
 }
 

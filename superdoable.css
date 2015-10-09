@@ -31,10 +31,15 @@ button4 lavender #886689;
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Nunito', verdana, arial, sans-serif;
+	/*font-family: 'Nunito', verdana, arial, sans-serif;*/
+	font-family: 'Lato', verdana, arial, sans-serif;
+	font-weight: 300;
 
 }
 
+:focus {
+	outline-style: solid;
+}
 
 body {
 	background-color: #eee; 
@@ -50,21 +55,26 @@ h1 {
 	display: inline;
 	padding: 20;
 	/*font-family: 'Exo 2', verdana, arial, sans-serif;*/
-	font-family: 'Cherry Cream Soda', Verdana, Arial, sans-serif;
-	font-size: 50px;
-	font-weight: bold;
+	font-family: 'Lato', Verdana, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
 	color: #bd0333;
+	/*color: #333;*/
+	letter-spacing: .2em;
+	/*color: #bd0333;*/
 	/*color: #dd3333; #992359; */
 	/*font-style: italic;*/
 	text-align: center;
 }
 
 h2 {
-	font-family: 'Nunito', verdana, arial, sans-serif;
-	font-size: 28px;
-	/*font-style: italic;*/
+	font-family: 'Lato', verdana, arial, sans-serif;
+	/*font-family: 'Nunito', verdana, arial, sans-serif;*/
+	font-size: 20px;
+	letter-spacing: .02em;
+	word-spacing: .2em;
 	color: #56A8E0;
-	text-align: center;
+	/*text-align: left;*/
 	/*background-color: lightblue;*/
 	/*background: linear-gradient(top, #4389E6, lightblue);*/
 	/*background: -webkit-linear-gradient(top, #4389E6, lightblue);*/
@@ -72,7 +82,8 @@ h2 {
 	/*border-radius: 1px;*/
 }
 p {
-	font-family: 'Nunito', verdana, arial, sans-serif;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	/*font-family: 'Nunito', verdana, arial, sans-serif;*/
 	font-size: 20px;
 	margin-bottom: 10px;
 	margin-left: 13px;
@@ -92,7 +103,8 @@ header {
 	height: 110px;
 	margin: 0 auto;
 	/*background-color: #bbb;*/
-	background-color: #FDE3A7;
+	/*background-color: #FDE3A7;*/
+	background-color: #ffe5c9;
 
 }
 
@@ -118,7 +130,7 @@ header {
 
 .slogan {
 	background: #222;
-	height: 70px;
+	height: 100px;
 	width: 100%;
 	display: table;
 }
@@ -126,13 +138,21 @@ header {
 .slogan-content {
 	display: table-cell;
 	vertical-align: middle;
+	text-align: center;
+	color: #eee;
+	/*padding-left: 110px;*/
+}
+
+.slogan-content span {
+	color: #eee;
+	font-size: 16px;
 }
 
 /* ========== LINKS BUTTONS ================ */
 
 .links-container {
 	margin: 0 auto;
-	width: 60%;
+	width: 80%;
 	height: 240px;
 	background: inherit;
 	/*border: solid 2px black;*/
@@ -160,9 +180,9 @@ header {
 
 .link {
 	margin: 10px auto;
-	padding: 7px 0;
-	height: 74px;
-	width: 140px;
+	padding: 7px 10px;
+	height: 60px;
+	width: 180px;
 	text-align: center;
 	/*border: 1px solid #bbb;*/
 	border-radius: 2px;
@@ -184,8 +204,10 @@ header {
 .link a {
 	display: table-cell;
 	vertical-align: middle;
-	font-family: 'Nunito', verdana, sans-serif;
+	font-family: 'Lato', verdana, arial, sans-serif;
+	/*font-family: 'Nunito', verdana, sans-serif;*/
 	font-size: 16px;
+	letter-spacing: .02em;
 	font-style: normal;
 	color: #eee;
 	line-height: 1.3em;
@@ -223,8 +245,9 @@ header {
 }
 
 .stripe {
-	/*background: #f48330;*/
-	background: #FDE3A7;
+	display: none;
+	background: #f48330;
+	/*background: #FDE3A7;*/
 	height: 15px;
 }
 
@@ -316,7 +339,15 @@ footer {
 
 /*  =========== MEDIA QUERY =============  */
 
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 1420px) {
+	.links-container {
+		width: 70%;
+	}
+	
+
+}
+
+@media screen and (max-width: 1035px) {
 
 	/*h1 { font-size: 38px; }*/
 
@@ -326,9 +357,14 @@ footer {
 
 	.slogan { height: 55px;}
 
-	h1 { font-size: 40px; }
+	.slogan-content span {
+	display: none;
+	}
 
-	h2 { font-size: 24px; }
+
+	h1 { font-size: 30px; }
+
+	h2 { font-size: 20px; }
 
 	p { margin-left: 3px; }
 
@@ -358,20 +394,25 @@ footer {
 	}
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 420px) {
 
 	header { height: 90px; }
 
 	.slogan { height: 40px;}
 
-	h1 { font-size: 34px; }
 
-	h2 { font-size: 20px; }
+	h1 { font-size: 24px; }
+
+	h2 { font-size: 18px; }
 
 	.link {
 		margin: 5px auto;
 		padding: 5px;
 		height: 40px;
+	}
+
+	#music-link {
+		font-size: 14px;
 	}
 
 }
